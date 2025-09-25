@@ -3,23 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website - Contact</title>
-  <link rel="stylesheet" href="style.css">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BV4LV877FP"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <title>Contact DIM Website - Get in Touch</title>
+  <meta name="description" content="Contact DIM Website to learn about digital marketing, SEO strategies, and online branding. Reach out to our team today.">
+  <meta name="keywords" content="Contact, Digital Marketing, SEO, Online Branding">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://15anshuman.github.io/dim-website/contact.html">
+  <link rel="icon" href="favicon.png" type="image/png">
 
-    gtag('config', 'G-BV4LV877FP');
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact DIM Website - Get in Touch">
+  <meta property="og:description" content="Contact DIM Website to learn about digital marketing, SEO strategies, and online branding. Reach out to our team today.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://15anshuman.github.io/dim-website/contact.html">
+  <meta property="og:image" content="https://15anshuman.github.io/dim-website/contact-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact DIM Website - Get in Touch">
+  <meta name="twitter:description" content="Contact DIM Website to learn about digital marketing, SEO strategies, and online branding. Reach out to our team today.">
+  <meta name="twitter:image" content="https://15anshuman.github.io/dim-website/contact-image.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "DIM Website Contact",
+    "url": "https://15anshuman.github.io/dim-website/contact.html"
+  }
   </script>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Contact Us</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="about.html">About Us</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -29,17 +50,19 @@
     <h2>Get in Touch</h2>
     <form>
       <label>Name:</label>
-      <input type="text" placeholder="Enter your name"><br><br>
+      <input type="text" placeholder="Enter your name" name="name"><br><br>
       <label>Email:</label>
-      <input type="email" placeholder="Enter your email"><br><br>
+      <input type="email" placeholder="Enter your email" name="email"><br><br>
       <label>Message:</label><br>
-      <textarea rows="5" cols="30" placeholder="Type your message"></textarea><br><br>
+      <textarea rows="5" cols="30" placeholder="Type your message" name="message"></textarea><br><br>
       <button type="submit">Send</button>
     </form>
+    <img src="contact.jpg" alt="Contact DIM Website illustration">
   </main>
 
   <footer>
-    <p>&copy; 2025 My Website | All Rights Reserved</p>
+    <p>&copy; 2025 DIM Website | All Rights Reserved</p>
   </footer>
 </body>
 </html>
+
